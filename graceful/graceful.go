@@ -31,7 +31,9 @@ func Run(service Graceful) {
 	// terminate your environment gracefully before leaving main function
 	defer func() {
 		log.Info().Msg("stopping server")
-		service.GracefulStop()
+		if err := service.GracefulStop(); err != nil {
+			log.Error().Err(err).Msg("graceful stop failed")
+		}
 	}()
 
 	// block until either OS signal, or server fatal error
