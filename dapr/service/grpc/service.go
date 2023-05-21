@@ -9,7 +9,7 @@ import (
 	pb "github.com/dapr/go-sdk/dapr/proto/runtime/v1"
 	"google.golang.org/grpc"
 
-	"github.com/releaseband/go-micro-tools/dapr/service/common"
+	"github.com/shumkovdenis/go-micro-tools/dapr/service/common"
 )
 
 // NewService creates new Service.
