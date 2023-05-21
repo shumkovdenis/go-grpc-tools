@@ -3,7 +3,7 @@ package zerolog
 import (
 	"context"
 
-	"github.com/releaseband/go-grpc-tools/trace"
+	"github.com/releaseband/go-micro-tools/trace"
 	"github.com/rs/zerolog/log"
 )
 
