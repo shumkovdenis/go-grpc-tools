@@ -1,4 +1,4 @@
-module github.com/releaseband/go-grpc-tools
+module github.com/releaseband/go-micro-tools
 
 go 1.20
 

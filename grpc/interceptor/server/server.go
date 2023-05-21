@@ -3,8 +3,8 @@ package server
 import (
 	"context"
 
-	"github.com/releaseband/go-grpc-tools/trace"
-	"github.com/releaseband/go-grpc-tools/zerolog"
+	"github.com/releaseband/go-micro-tools/trace"
+	"github.com/releaseband/go-micro-tools/zerolog"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 )
