@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/shumkovdenis/go-micro-tools/compare/v1.0.0...v1.0.1) (2023-05-21)
+
+
+### Bug Fixes
+
+* Re-organize imports & update module name ([4604a91](https://github.com/shumkovdenis/go-micro-tools/commit/4604a91b5d3eb673bf88a13fd4e916b1b8eeae53))
+
 ## 1.0.0 (2023-05-20)
 
 
