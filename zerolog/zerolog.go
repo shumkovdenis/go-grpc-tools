@@ -3,8 +3,8 @@ package zerolog
 import (
 	"context"
 
-	"github.com/releaseband/go-micro-tools/trace"
 	"github.com/rs/zerolog/log"
+	"github.com/shumkovdenis/go-micro-tools/trace"
 )
 
 func WithTrace(ctx context.Context) context.Context {
