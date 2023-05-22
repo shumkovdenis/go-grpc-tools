@@ -1,10 +1,12 @@
-name: Lint
+name: Lint go
 
 on:
   pull_request:
+    paths:
+      - '**.go'
 
 jobs:
-  lint:
+  validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
