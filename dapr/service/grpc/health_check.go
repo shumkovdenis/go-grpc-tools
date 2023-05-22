@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	pb "github.com/dapr/go-sdk/dapr/proto/runtime/v1"
-	"github.com/shumkovdenis/go-micro-tools/dapr/service/common"
+	"github.com/releaseband/go-micro-tools/dapr/service/common"
 
 	"google.golang.org/protobuf/types/known/emptypb"
 )

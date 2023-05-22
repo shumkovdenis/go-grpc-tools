@@ -3,7 +3,7 @@ package trace
 import (
 	"context"
 
-	"github.com/shumkovdenis/go-micro-tools/trace/utils"
+	"github.com/releaseband/go-micro-tools/trace/utils"
 	"go.opentelemetry.io/otel/trace"
 )
 

@@ -3,7 +3,7 @@ package client
 import (
 	"context"
 
-	"github.com/shumkovdenis/go-micro-tools/trace"
+	"github.com/releaseband/go-micro-tools/trace"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 )
